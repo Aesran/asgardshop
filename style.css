@@ -1,0 +1,50 @@
+/* Style main theme */
+
+body {
+
+	background-color: #101010;
+}
+
+.navbar {
+background-color: #0d3b66;
+
+}
+
+
+
+.barre-connexion {
+	background-color: #0f1e2c;
+	min-height: 37px;
+
+}
+
+.barre-connexion .form-inline {
+	background-color: #0f1e2c;
+	min-height: 37px;
+
+}
+.barre-connexion .form-inline h8 {
+	background-color: #081522;
+	color: #4b6985;
+	font-weight: bold;
+	border-left: 2px solid #09131c;
+	border-right: 2px solid #09131c;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	padding: 6px;
+	margin-right: 10px;
+
+
+}
+.barre-connexion .form-control { 
+	padding: .2em .1em;
+	background-color: #d0d0d0;
+	border-radius: 0px;
+
+}
+.connexion {
+
+
+}
