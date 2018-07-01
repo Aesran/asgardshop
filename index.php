@@ -1,4 +1,4 @@
-<?php 
+<?php
 // Inclusion des fonctions / classes nécéssaires
 // include('class/PDO.class.php');
 // include('class/fonctions.php');
@@ -42,10 +42,10 @@ Pouvoirs:
 preg_match('#^(.+)\s$#i', $string, $match);
 var_dump($match);
 
-
+'(tyutr)'
 
 function chargerClasse($class) {
-  
+
   require 'class.' . $class . '.php';
 }
 $db = new PDO('mysql:host=localhost;dbname=asgard', 'asgard', '7566Pur16');
@@ -77,14 +77,14 @@ $manager = new MembreManager($db);
     <link rel="icon" href="../../favicon.ico">
 
     <title> Asgard Shop</title>
-  
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
- 
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="bootstrap-theme.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
@@ -124,10 +124,10 @@ $manager = new MembreManager($db);
     <!-- BARRE DE CONNEXION -->
     <!--
       ######## Si le visiteur n'est pas connecté,
-      on affiche une barre avec un formulaire de connexion / 
+      on affiche une barre avec un formulaire de connexion /
       inscription
     -->
-     <div class="container-fluid barre-connexion"> 
+     <div class="container-fluid barre-connexion">
       <div class="container">
 
 
@@ -145,8 +145,8 @@ $manager = new MembreManager($db);
 
 <!-- CONTENU DE LA PAGE -->
 
-<?php  
-include('catalogue.php') 
+<?php
+include('catalogue.php')
 ?>
 
 
