@@ -10,6 +10,7 @@ W = tout sauf les lettres.
 D = tout sauf les nombres
 S = tout sauf les espaces
 */
+/* Ceci est un test de commit */
 $string = "
 Nom: $$$ la Hache d'Or Sacree
 Amelioration exceptionelle
