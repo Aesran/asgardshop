@@ -44,7 +44,7 @@ var_dump($match);
 
 '(tyutr)'
 
-function chargerClasse($class) {
+/*function chargerClasse($class) {
 
   require 'class.' . $class . '.php';
 }
@@ -58,9 +58,9 @@ spl_autoload_register('chargerClasse');
 "Permission" => 'membre',
 "Faction" => "Les defairouilleurs",
 "Email" => "truc@chain.fr",
-  );*/
+  );
 $manager = new MembreManager($db);
-
+*/
 
 
 //##### On verifie si l'individu est connecté, ou a tenté de se connecté. Si c'est le cas, on créer un objet $membre
