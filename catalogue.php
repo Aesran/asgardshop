@@ -1,3 +1,4 @@
+<!-- ceci est un test -->
 <div class="container">
 
       <div class="row">
@@ -13,12 +14,12 @@
             <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
             </br>
             <div class="wrapper">
-            <span class="group-btn">     
+            <span class="group-btn">
                 <a href="#" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
             </span>
             </div>
             </div>
-        
+
         </div>
         </div>
         <!-- /.col-lg-3 -->
