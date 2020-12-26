@@ -1,4 +1,5 @@
 <?php
+// Petite  modification d'essais ! 
 // Inclusion des fonctions / classes nécéssaires
 // include('class/PDO.class.php');
 // include('class/fonctions.php');
